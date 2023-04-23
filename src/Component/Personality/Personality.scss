@@ -1,0 +1,35 @@
+.personality {
+  padding-top: 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 45%;
+  margin: auto;
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+.perso {
+  width: 100px;
+}
+
+@media (max-width: 729px) {
+  .personality {
+    width: 100%;
+    font-size: 90%;
+    span {
+      font-size: 1rem;
+    }
+    .perso {
+      font-size: 85%;
+      width: 70px;
+      padding: 1px 5px;
+      // height: 1.5rem;
+    }
+    textarea {
+      height: 0.5rem;
+    }
+  }
+}
